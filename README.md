@@ -1,8 +1,13 @@
 # RESUMO
 Este projeto visa oferecer APIs REST efetuar operações básicas de uma instituiçao de ensino, através do DRF (Django Rest Framework).
 
+# Instalação
+- <a href="https://hub.docker.com/layers/fellipe222/teste-super-ensino/1.0/images/sha256:7352bc41a78c69b24dd3c133d3b9c66a7d66d6e9fdb5b1b1fec2ed7f7fe1e150" target="_blank">Container do projeto!</a>
+- Caso não possua o Docker na sua máquina, download: <a href="https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=header" target="_blank">Windows</a> | <a href="https://desktop.docker.com/mac/main/amd64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module" target="_blank">MAC (chip Intel)</a> | <a href="https://desktop.docker.com/mac/main/arm64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module" target="_blank">MAC (chip Apple)</a> | <a href="https://docs.docker.com/desktop/linux/install/" target="_blank">Linux</a>
+
+# Funcionalidades
 Através do django admin, professores podem:
-- Cadastrar disciplinas (e.g.: 'Matemática','Português')
+- Cadastrar, editar, remover e visualizar disciplinas (e.g.: 'Matemática','Português')
 ![image](https://user-images.githubusercontent.com/56563965/182060980-433f2e57-0111-459b-8c3e-1b411690126e.png)
 
 - Cadastrar, editar, remover e visualizar séries (e.g.: '1ª série fundamental')

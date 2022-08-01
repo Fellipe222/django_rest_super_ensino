@@ -1,5 +1,4 @@
 # RESUMO
-
 Este projeto visa oferecer APIs REST efetuar operações básicas de uma instituiçao de ensino, através do DRF (Django Rest Framework).
 
 Professores podem:
@@ -20,7 +19,7 @@ Alunos podem:
 Através de <i>localhost/api/</i>, podemos visualizar os endpoints no padrão: <i>[ MÉTODO ] /endpoint/</i>:
 ![image](https://user-images.githubusercontent.com/56563965/182056757-3e4728c8-5bd1-42b3-b7db-7a73994da401.png)
 
-# NA PRÁTICA
+# Na prática
 Para visualizar a relação completa de perguntas, podemos:
 - GET <i>localhost/api/admin/perguntas/</i> para visualizar as perguntas e resposta correta:
 ![image](https://user-images.githubusercontent.com/56563965/182057614-6d9317be-48f4-4fa9-a039-c18f298822f2.png)

@@ -1,16 +1,27 @@
 # RESUMO
 Este projeto visa oferecer APIs REST efetuar operações básicas de uma instituiçao de ensino, através do DRF (Django Rest Framework).
 
-Professores podem:
+Através do django admin, professores podem:
 - Cadastrar disciplinas (e.g.: 'Matemática','Português')
-- Cadastrar séries (e.g.: '1ª série fundamental')
-- Cadastrar novos alunos (vinculando: série)
-- Cadastrar questionários (vinculando: disciplina e série). 
-- Cadastrar perguntas (viculando: questionário)
-- Cadastrar alternativas (vinculando: perguntas)
+![image](https://user-images.githubusercontent.com/56563965/182060980-433f2e57-0111-459b-8c3e-1b411690126e.png)
+
+- Cadastrar, editar, remover e visualizar séries (e.g.: '1ª série fundamental')
+![image](https://user-images.githubusercontent.com/56563965/182061060-6eae33d1-8503-4a22-9b23-c98d917e1a96.png)
+
+- Cadastrar, editar, remover e visualizar novos alunos (vinculando: série)
+![image](https://user-images.githubusercontent.com/56563965/182061171-cdbcba25-74f2-4abb-9049-95112d166645.png)
+
+- Cadastrar, editar, remover e visualizar questionários (vinculando: disciplina e série)
+![image](https://user-images.githubusercontent.com/56563965/182061319-ddc9aeca-68c4-41f7-bcd8-d1209cb537d8.png)
+
+- Cadastrar, editar, remover e visualizar perguntas (viculando: questionário)
+![image](https://user-images.githubusercontent.com/56563965/182061366-e1d88846-e4c5-4c02-b7f2-eed060314ec1.png)
+
+- Cadastrar, editar, remover e visualizar alternativas (vinculando: perguntas)
+![image](https://user-images.githubusercontent.com/56563965/182061431-7f81ecf1-04f3-42fb-a96d-99b9b22f1869.png)
 
 Alunos podem:
-- Cadastrar respostas (vinculando: pergunta)
+- Cadastrar respostas (vinculando: id_aluno e pergunta), através do método POST
 
 # Diagrama de relações entre modelos
 ![image](https://user-images.githubusercontent.com/56563965/182056316-81e38b99-b60b-467d-a1ee-435d35ed79e8.png)

@@ -7,6 +7,12 @@ Este projeto visa oferecer APIs REST efetuar operações básicas de uma institu
 
 - Caso não possua o Docker na sua máquina, download: <a href="https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=header" target="_blank">Windows</a> | <a href="https://desktop.docker.com/mac/main/amd64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module" target="_blank">MAC (chip Intel)</a> | <a href="https://desktop.docker.com/mac/main/arm64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module" target="_blank">MAC (chip Apple)</a> | <a href="https://docs.docker.com/desktop/linux/install/" target="_blank">Linux</a>
 
+# Super usuário django
+Neste projeto, comtamos com o super usuário: 
+  login:professor
+  senha:pardal
+Caso deseje criar suas próprias credenciais, na pasta raiz do projeto, digite: <b><i>python manage.py createsuperuser</i></b> e siga as instruções.
+
 # Funcionalidades
 Através do django admin, professores podem:
 - Cadastrar, editar, remover e visualizar disciplinas (e.g.: 'Matemática','Português')
